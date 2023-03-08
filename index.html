@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	 <title> Ascending </title>
+</head>
+<body>
+	
+    <script>
+	
+		  var a=parseInt(prompt("enter a num"));
+		  var b=parseInt(prompt("enter a num"));
+		  var c=parseInt(prompt("enter a num"));
+		  if (a<b&&a<c){
+			 if (b<c){
+			 console.log("a="+a,"b="+b,"c="+c);
+			 }else{
+			  console.log("a="+a,"c="+c,"b="+b);
+			 }
+		  }else if(b<c){
+		     if (a<c){
+			    console.log("b="+b,"a="+a,"c="+c);
+			 }else{
+			   console.log("b="+b,"c="+c,"a="+a);
+			 }
+		  }else if(c<b){
+		    if (a<b){
+			 console.log("c="+c,"a="+a,"b="+b);
+			}else{
+			console.log("c="+c,"b="+b,"a="+a);
+			}
+		  }
+			
+		
+	</script> 
+	
+	
+</body>
+</html>
